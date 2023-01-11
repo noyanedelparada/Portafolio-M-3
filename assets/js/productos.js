@@ -1,5 +1,5 @@
 let productos = [{
-  
+
 
   nombre: "Elder ring",
   descripcion: "Elige el catalogado como mejor juego del año 2022.",

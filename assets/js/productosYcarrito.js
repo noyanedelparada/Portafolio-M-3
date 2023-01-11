@@ -68,35 +68,43 @@ function agregarProductos(sku) {
     cantidad: 1
   }
 
-let productoEncontrado = productosCarro.find (producto => producto.sku == sku);
-if (productoEncontrado) {
-  productoEncontrado.cantidad = productoEncontrado.cantidad + 1
+  let productoEncontrado = productosCarro.find(producto => producto.sku == sku);
+  if (productoEncontrado) {
+    productoEncontrado.cantidad = productoEncontrado.cantidad + 1
 
-} else {
+  } else {
 
-  productosCarro.push (objtProducto)
+    productosCarro.push(objtProducto)
 
-};
-
-
-  
+  };
 
 
-  
-  actCarro(productosCarro)
+
+
+
+
+  actCarro(productosCarro);
+
+  Swal.fire({
+    position: 'top-end',
+    icon: 'success',
+    title: 'Producto agregado al carrito',
+    showConfirmButton: false,
+    timer: 1500
+  })
 }
 
 function actCarro(listadoProductos) {
   localStorage.setItem("productos", JSON.stringify(productosCarro));
 
-  
+
   const valorInicial = 0;
-  const sumaProductos = listadoProductos.reduce (
-    (acumulador ,producto) =>  acumulador + producto.cantidad , valorInicial
+  const sumaProductos = listadoProductos.reduce(
+    (acumulador, producto) => acumulador + producto.cantidad, valorInicial
   )
-  
-  
-  
+
+
+
   document.querySelector("#cantidad-productos").innerText = sumaProductos
 }
 
