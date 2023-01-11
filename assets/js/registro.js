@@ -7,10 +7,14 @@ let usuarios = [
     {
         nombre: "Ignacio",
         password: "123456",
-        correo:"Ignacio@gmail.com",
+        correo: "Ignacio@gmail.com",
 
     }
 ]
+
+
+
+
 
 
 document.getElementById("form-login").addEventListener("submit", function (event) {
@@ -19,28 +23,18 @@ document.getElementById("form-login").addEventListener("submit", function (event
 
     let nombre = document.getElementById("login-nombre").value;
     let password = document.getElementById("login-password").value;
+    let correo = document.getElementById("login-correo").value;
 
-    
+    let datos = { nombre, password, correo };
 
-    let usuarioEncontrado = usuarios.find(usuario => usuario.nombre == nombre && usuario.password == password)
+    usuarios.push(datos);
 
-
-
-    if (usuarioEncontrado) {
-        alert("Usuario validado");
-        location.href = "./index.html"
+    alert("Usuario Registrado");
+    location.href = "./usuarios.html";
 
 
-    }
 
-    else {
-        Swal.fire({
-            icon: 'error',
-            title: 'Datos incorrectos',
-
-
-        })
-    }
 
 
 })
+

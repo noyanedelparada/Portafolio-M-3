@@ -46,9 +46,14 @@ h1 {
 
 }
 
+
+
+
 footer {
     color: whitesmoke;
 }
+
+a:link {text-decoration:none;}
 
 #p-footer {
     margin-bottom: 0px;

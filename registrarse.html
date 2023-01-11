@@ -60,7 +60,7 @@
 
 
       <section class="container" id="login">
-        <h1 class="d-flex justify-content-center m-5">Ingrese sus datos de usuario</h1>
+        <h1 class="d-flex justify-content-center m-5">Complete los datos para registrarse</h1>
         <section class="d-flex justify-content-center">
             <form id="form-login" >
 
@@ -69,8 +69,10 @@
                 <input type="text" name="nombre" id="login-nombre" class="form-control">
                 <label for="password" class="text-light form-label mt-4">Password</label>
                 <input type="password" name="password" id="login-password" class="form-control">
-                <button type="submit" class="btn btn-primary my-4">Log in</button>
-                <button type="button" class="btn btn-primary my-4 text-bg-light" id="boton-registrarse"><a href="./registrarse.html"> Registrarse </a> </button>
+                <label for="correo" class="text-light form-label mt-4">Correo</label>
+                <input type="email" name="correo" id="login-correo" class="form-control">
+        
+                <button type="submit" class="btn btn-primary my-4 text-bg-light" id="boton-registrarse"> Completar registro  </button>
                 
             </form>
           
@@ -107,7 +109,7 @@
     ></script>
 
  <!-- Script propio -->
- <script src="./assets/js/login.js"></script>
+ <script src="./assets/js/registro.js"></script>
  
     
   </body>
