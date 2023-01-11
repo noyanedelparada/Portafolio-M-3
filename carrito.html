@@ -16,9 +16,9 @@
     <title>carrito</title>
   </head>
   <body>
-    <!-- Navbar -->
+     <!-- Navbar -->
 
-    <nav class="navbar navbar-expand-lg bg-body-tertiary navbar-dark bg-dark">
+     <nav class="navbar navbar-expand-lg bg-body-tertiary navbar-dark bg-dark">
       <div class="container-fluid">
         <a class="navbar-brand" href="./index.html">Nicgames</a>
         <button
@@ -46,18 +46,60 @@
               <a class="nav-link" href="./contactos">Contactos</a>
             </li>
             <li class="nav-item d-flex" id="carrito">
-              <a class="nav-link active" href="./carrito.html ">Carrito</a>
+              <a class="nav-link active" href="./carrito.html">Carrito</a>
               <i
                 class="fa-solid fa-cart-shopping bg-dark"
                 id="icono-carrito"
               ></i>
-              <button class="bg-dark bg-light" id="contador-carrito">0</button>
+              <button class="bg-dark bg-light" id="cantidad-productos">
+                0
+              </button>
             </li>
           </ul>
         </div>
       </div>
     </nav>
     <!--    fin navbar -->
+
+    <section class="container">
+      <h1 class="d-flex justify-content-center m-5 text-light">LISTADO DE PRODUCTOS</h1>
+      <section id="productos-carrito">
+        <div class="row">
+
+        <!--   tabla de productos -->
+
+        <table class="table text-light">
+          <thead>
+            <tr>
+              <th scope="col">#</th>
+              <th scope="col">Nombre</th>
+              <th scope="col">Precio normal</th>
+              <th scope="col">Descuento</th>
+              <th scope="col">Precio unidad</th>
+              <th scope="col">Cantidad</th>
+              <th scope="col">Precio total</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <!-- tabla con java -->
+              
+            </tr>
+          </tbody>
+        </table>
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     <!-- Font awesome -->
     <script
@@ -73,6 +115,7 @@
     ></script>
 
     <!--   script propio -->
+    <script src="./assets/js/productos.js"></script>
     <script src="./assets/js/carrito.js"></script>
   </body>
 </html>
