@@ -45,7 +45,7 @@ usuarioEncontrado = usuario
 
     if (usuarioEncontrado) {
         alert("Usuario validado");
-        location.href = "/index.html"
+        location.href = "./index.html"
 
 
     }
