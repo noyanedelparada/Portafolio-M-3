@@ -6,7 +6,7 @@
 ###
 ### 2. Desarrollar el registro/ingreso de usuarios al frontend. Esto se puede hacer como una parte independiente del proyecto o como un Branch del mismo
 
-## Cuenta Github : https://noyanedelparada.github.io/Portafolio-M-3/
+## Cuenta Github : https://github.com/noyanedelparada
 
 ## link Github pages: [Deploy Github Pages](https://noyanedelparada.github.io/Portafolio-M-3/)
 
