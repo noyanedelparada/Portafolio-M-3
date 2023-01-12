@@ -65,5 +65,5 @@
 
 ## Cupones validos para ingresar
 
-### codigo: 10%            descuento: 10%
-### codigo: 20%            descuento: 20%
+### codigo: 10%            
+### codigo: 20%           
