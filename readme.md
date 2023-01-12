@@ -55,11 +55,15 @@
 
 
 ## Usuarios validos para ingresar
+### Usuario 1:
+### Nombre: Nicolas 
+### Password: 123456 
 
-### Nombre: Nicolas Password: 123456 
-### Nombre: Ignacio Password: 123456 
+### Usuario 2:
+### Nombre: Ignacio 
+### Password: 123456 
 
 ## Cupones validos para ingresar
 
-### codigo: 10%  descuento: 10%
-### codigo: 20%  descuento: 20%
+### codigo: 10%            descuento: 10%
+### codigo: 20%            descuento: 20%
