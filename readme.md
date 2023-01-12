@@ -6,7 +6,7 @@
 ###
 ### 2. Desarrollar el registro/ingreso de usuarios al frontend. Esto se puede hacer como una parte independiente del proyecto o como un Branch del mismo
 
-## Cuenta Github : [Deploy Github Pages](https://noyanedelparada.github.io/Portafolio-M-3/)
+## Cuenta Github : https://noyanedelparada.github.io/Portafolio-M-3/
 
 ## link Github pages: [Deploy Github Pages](https://noyanedelparada.github.io/Portafolio-M-3/)
 
@@ -39,15 +39,15 @@
 
 ### HTML: Para crear la estructura base de las páginas (carrito, index, registrarse, usuarios), además de agregar imágenes, tablas y links para navegar a otras paginas recomendadas según la categoría seleccionada.
 
-### Bootstrap: para elaborar una barra de navegación funcional, crear cartas de productos en la página, diseñar los botones en las diferentes paginas, se elaboró una tabla para la pagina de carrito y para la interfaz de registro y login de usuario.
+### Bootstrap: Para elaborar una barra de navegación funcional, crear cartas de productos en la página, diseñar los botones en las diferentes paginas, se elaboró una tabla para la pagina de carrito y para la interfaz de registro y login de usuario.
 
-### CSS: para agregar colores a los títulos y párrafos, además de añadir imágenes y un fondo a la página.
+### CSS: Para agregar colores a los títulos y párrafos, además de añadir imágenes y un fondo a la página.
 
-### FontAwesome: para agregar iconos a la página.
+### FontAwesome: Para agregar iconos a la página.
 
 ### Javascript y Jquery: Para agregar la funcionalidad a todas las pagina. 
 ###
-### Primero para la pagina principal: Agregar un contador al carrito, alarmas al agregar productos, generar las tarjetas de productos con sus respectivos elementos y atributos. 
+### Para la pagina principal: Agregar un contador al carrito, alarmas al agregar productos, generar las tarjetas de productos con sus respectivos elementos y atributos. 
 ###
 ### Para la pagina del carrito: Agregar la funcionalidad de agregar y quitar un producto através de botones, generar la tabla de productos con sus precios, descuentos y precio total respecto a la cantidad de productos; generar la funcion para vaciar el carro y para aplicar descuentos, alarmas para confirmar la eliminación un producto, para validar un cupon o para invalidarlo; y finalmente calcular el precio de todos los productos juntos con los descuentos correspondientes. 
 ###
