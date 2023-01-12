@@ -29,11 +29,11 @@
 ### 
 ### git checkout -b gh-pages --> Creamos rama para agregar un GitHub pages
 ### 
-### git checkout (nombre-rama) --> para cambiar de una rama a otra
+### git checkout (nombre-rama) --> Para cambiar de una rama a otra
 ### 
-### git branch --> nos permite ver las ramas locales
+### git branch --> Nos permite ver las ramas locales
 ### 
-### git merge feature/footer --> nos permite desde una rama X (Ejemplo main) fusionamos los cambios de una rama diferente
+### git merge main/gh-pages --> Con el fin de, desde la rama main fusionar los cambios a la rama gh-pages
 
 ## Herramientas utilizadas:
 
@@ -52,3 +52,14 @@
 ### Para la pagina del carrito: Agregar la funcionalidad de agregar y quitar un producto através de botones, generar la tabla de productos con sus precios, descuentos y precio total respecto a la cantidad de productos; generar la funcion para vaciar el carro y para aplicar descuentos, alarmas para confirmar la eliminación un producto, para validar un cupon o para invalidarlo; y finalmente calcular el precio de todos los productos juntos con los descuentos correspondientes. 
 ###
 ### Para la pagina de Login y registro: Se desarrollo la logica del ingreso de la pagina asignandole usuarios predeterminados en un "array", además de incorporar alarmas al momento de ingresar tanto los datos validos como invalidos, redirigiendo a la pagina principal al momento de ingresar datos validos; por ultimo, agregar un "registro de la pagina" añadiendo al "array" de los usuarios los nuevos datos registrados con un "push", para finalmente redirigir a la pagina de ingreso.
+
+
+## Usuarios validos para ingresar
+
+### Nombre: Nicolas Password: 123456 
+### Nombre: Ignacio Password: 123456 
+
+## Cupones validos para ingresar
+
+### codigo: 10%  descuento: 10%
+### codigo: 20%  descuento: 20%
